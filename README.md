@@ -57,14 +57,14 @@ E-commerce/
 
 | Method | Endpoint             | Description       |
 |--------|----------------------|-------------------|
-| POST   | `register` | Register new user |
+| POST   | `/register` | Register new user |
 | POST   | `/login`    | Login             |
 
 ---
 ### 📦 Shop
 | Method | Endpoint                      | Description                                             |
 |-------|-------------------------------|---------------------------------------------------------| 
-| GET   | `/api/myshop/myproducts       | Get product posted Specific user which posted a product |
+| GET   | `/api/myshop/myproducts`      | Get product posted Specific user which posted a product |
 | POST  | `/api/myshop/add`             | Add new product                                         |
 | PUT   | `/api/myshop/update/{prodid}` | Update product                                          |
 | DELETE | `/api/myshop/delete/{prodid}` | Delete product                                          |
@@ -81,7 +81,7 @@ E-commerce/
 
 | Method | Endpoint                        | Description                 |
 |--------|---------------------------------|-----------------------------|
-| POST   | `"/api/cart/add/{prodid}"`      | Add product to cart         |
+| POST   | `/api/cart/add/{prodid}`      | Add product to cart         |
 | GET    | `/api/cart/mycart`              | View all cart items         |
 | DELETE | `/api/cart/remove/{cartItemId}` | Remove item from cart       |
 | DELETE | `/api/cart/clear`               | Remove  all items from cart |
